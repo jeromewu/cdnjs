@@ -1,6 +1,6 @@
 {
   "name": "tesseract.js",
-  "filename": "tesseract.min.js",
+  "filename": "dist/tesseract.min.js",
   "version": "1.0.10",
   "description": "Pure Javascript Multilingual OCR",
   "author": "antimatter15",
@@ -16,16 +16,13 @@
     "url": "https://github.com/naptha/tesseract.js.git"
   },
   "homepage": "http://tesseract.projectnaptha.com/",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/naptha/tesseract.js.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.md)"
-        ]
-      }
-    ]
-  }
+  "npmName": "tesseract.js",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/!(*.md)"
+      ]
+    }
+  ]
 }
